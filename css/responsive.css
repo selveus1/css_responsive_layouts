@@ -1,0 +1,261 @@
+.banner_img, .proj_img{
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 450px){
+
+    /*
+        1) logo should :
+            - be centered
+            - be on the very top
+            - decrease in size
+        2) title should increase in text size and be centered
+        3) subtitle should decrease in text size and be centered
+
+        5) about me paragraph should increase in text size and become bold
+
+        6) projects should :
+                - appear in one column
+                - resize image
+
+        7) footer should become hamburger menu
+
+        8) reduce padding and margins
+
+    */
+
+    .container{
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .logo{
+        width: 100%;
+        display: block;
+    }
+
+    #logo_img{
+        width: 15%;
+        margin: auto;
+        display: block;
+    }
+    .name{
+        width: 100%;
+    }
+
+    .h1{
+        margin: 2px;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 5px;
+    }
+
+    .subtitle{
+        text-align: center;
+        font-size:  0.8em;
+        margin-top: 2px;
+    }
+
+    .subheader, .intro{
+        margin: 3px;
+    }
+
+    .intro{
+        font-size: 0.9em;
+    }
+
+    .project{
+         width: 100%;
+         margin-bottom: 10px;
+         padding: 5px;
+     }
+
+    .proj_img{
+        margin: auto;
+        display: block;
+    }
+
+    .proj_name, .proj_descrpt{
+        display: flex;
+    }
+
+    .proj_descrpt{
+        margin: 2px;
+    }
+
+    .footer{
+        font-size: 0.7em;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (min-width: 451px) and (max-width: 600px){
+
+    /*
+        1) logo should :
+            - align to left
+            - increase in size
+        2) title should decrease in text size and align to right
+        3) subtitle should increase in text size and align to right
+
+        4) banner pic should fill row
+        5) about me paragraph should increase in text size and lose boldness and gain margins
+
+        6) projects should :
+                - img should be centered (no increase in size)
+                - appear in one column with margins
+                - resize image
+
+        7) footer should appear
+    */
+
+    .container{
+        padding: 15px;
+        margin: 7.5px;
+    }
+
+    .subheader, .intro{
+        margin: 3px;
+    }
+
+    .about{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .intro{
+        font-size: 0.9em;
+    }
+
+    .project{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .proj_img{
+        margin: auto;
+        display: block;
+    }
+
+
+    .proj_name, .proj_descrpt{
+        width: 85%;
+        margin: auto;
+    }
+
+    .proj_descrpt{
+        margin: 2px;
+    }
+
+    .footer{
+        font-size: 0.8em;
+        width: 100%;
+        margin: auto;
+    }
+
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 800px){
+
+    /*
+        1) logo should :
+            - align to left
+            - increase in size
+        2) title should decrease in text size and align to right
+        3) subtitle should increase in text size and align to right
+
+        4) banner pic should fill row
+        5) about me paragraph should increase in text size and lose boldness and gain margins
+
+        6) projects should :
+                - img should be centered (no increase in size)
+                - appear in two columns with margins
+                - resize image
+
+        7) footer should appear
+    */
+
+    .about{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .project{
+        width: calc((100% - 15px)/2);
+        padding: 5px;
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    .proj_img{
+        margin: auto;
+        display: block;
+    }
+
+    .footer{
+        font-size: 0.5em;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 801px){
+
+    /*
+
+        1) projects should :
+                - appear in three columns
+                - resize image
+
+    */
+    .container{
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .about{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .project{
+        width: calc((100% - 15px)/3);
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    .footer{
+        font-size: 0.5em;
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (min-width: 1100px){
+
+    /*
+
+        1) entire container should become fixed width and gain margins
+    */
+    .container{
+        width: 1100px;
+
+    }
+
+}
