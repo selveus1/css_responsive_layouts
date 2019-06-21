@@ -13,3 +13,23 @@ footer a {
     text-decoration: none;
     color: #333;
 }
+
+.logo, .name {
+	border: purple 2px solid;
+}
+
+.container {
+	border: blue 2px solid;
+}
+
+.about {
+	border: green 2px solid;
+}
+
+.project {
+	border: orange 2px solid;
+}
+
+.footer {
+	border: red 2px solid; 
+}

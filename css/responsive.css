@@ -95,9 +95,9 @@
         + subtitle should increase in text size and align to right
         + about me paragraph should increase in text size and gain margins
         + projects should :
-                - img should be centered (no increase in size)
-                - appear in one column with margins
-                - resize image
+            - img should be centered (no increase in size)
+            - appear in one column with margins
+            - resize image
     */
 
     .container{
@@ -157,9 +157,9 @@
 
     /*
         + projects should :
-                - img should be centered (no increase in size)
-                - appear in two columns with margins
-                - resize image
+            - img should be centered (no increase in size)
+            - appear in two columns with margins
+            - resize image
     */
 
     .container{
@@ -186,6 +186,7 @@
     .proj_img{
         margin: auto;
         display: block;
+        width: 100%;
     }
 
     .footer{
@@ -234,6 +235,10 @@
         margin-bottom: 15px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .proj_img{
+        width: 100%;
     }
 
     .footer{
